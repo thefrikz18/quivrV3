@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { QuivrLogo } from "@/lib/assets/QuivrLogo";
+
 import { cn } from "@/lib/utils";
 
 import { PopoverMenuMobile } from "./components/PopoverMenuMobile";
@@ -24,8 +24,8 @@ export const HomeHeader = ({ color = "white" }: HomeNavProps): JSX.Element => {
           color === "black" ? "hover:text-black" : "hover:text-white"
         )}
       >
-        <QuivrLogo size={64} color={color} />
-        <div>Quivr</div>
+       
+        <div>Ŏzaru</div>
       </Link>
       <div className="hidden md:flex">
         <ul className="flex gap-4 items-center">{navLinks("desktop")}</ul>

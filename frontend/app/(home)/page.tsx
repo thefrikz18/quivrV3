@@ -5,16 +5,16 @@ import { useSupabase } from "@/lib/context/SupabaseProvider";
 import { redirectToPreviousPageOrChatPage } from "@/lib/helpers/redirectToPreviousPageOrChatPage";
 
 import {
-  DemoSection,
-  FooterSection,
+  // DemoSection,
+  // FooterSection,
   HomeHeader,
-  HomeSection,
-  IntroSection,
-  SecuritySection,
-  TestimonialsSection,
+  // HomeSection,
+  // IntroSection,
+  // SecuritySection,
+  // TestimonialsSection,
 } from "./components";
-import { HomeHeaderBackground } from "./components/HomeHeader/components/HomeHeaderBackground";
-import { UseCases } from "./components/UseCases/UseCases";
+// import { HomeHeaderBackground } from "./components/HomeHeader/components/HomeHeaderBackground";
+// import { UseCases } from "./components/UseCases/UseCases";
 
 const HomePage = (): JSX.Element => {
   const { session } = useSupabase();
@@ -27,10 +27,10 @@ const HomePage = (): JSX.Element => {
 
   return (
     <>
-      <HomeHeaderBackground />
+      {/* <HomeHeaderBackground /> */}
       <HomeHeader />
 
-      <main
+      {/* <main
         className="relative flex flex-col items-center"
         data-testid="home-page"
       >
@@ -65,7 +65,7 @@ const HomePage = (): JSX.Element => {
         >
           <FooterSection />
         </HomeSection>
-      </main>
+      </main> */}
     </>
   );
 };

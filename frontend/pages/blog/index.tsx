@@ -64,7 +64,7 @@ const Blog = ({ result }: InferGetStaticPropsType<typeof getStaticProps>) => {
     <div>
       <section className="w-full">
         <Head>
-          <title>Quivr - Blog</title>
+          <title>Ŏzaru - Blog</title>
           <meta name="description" content="Quivr.app - Your Generative AI second brain builder's blog" />
         </Head>
 
@@ -72,10 +72,10 @@ const Blog = ({ result }: InferGetStaticPropsType<typeof getStaticProps>) => {
           <div className="container mx-auto px-4 md:px-6">
             <nav className="flex items-center justify-between">
               <Link href="/blog">
-                <div className="text-2xl font-bold cursor-pointer">Quivr</div>
+                <div className="text-2xl font-bold cursor-pointer">Ŏzaru</div>
               </Link>
               <div className="space-x-4">
-                <Link className="text-zinc-900 hover:text-zinc-700" href="/">Try Quivr</Link>
+                <Link className="text-zinc-900 hover:text-zinc-700" href="/">Try Ŏzaru</Link>
               </div>
             </nav>
           </div>
