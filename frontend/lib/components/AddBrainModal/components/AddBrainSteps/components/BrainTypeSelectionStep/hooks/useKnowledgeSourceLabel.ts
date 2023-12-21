@@ -16,10 +16,10 @@ export const useKnowledgeSourceLabel = () => {
       label: t("knowledge_source_doc", { ns: "brain" }),
       value: "doc",
     },
-    {
-      label: t("knowledge_source_api", { ns: "brain" }),
-      value: "api",
-    },
+    // {
+    //   label: t("knowledge_source_api", { ns: "brain" }),
+    //   value: "api",
+    // },
   ];
 
   if (isCompositeBrainActivated) {

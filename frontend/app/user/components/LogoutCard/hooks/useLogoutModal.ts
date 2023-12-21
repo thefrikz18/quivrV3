@@ -36,7 +36,7 @@ export const useLogoutModal = () => {
         variant: "success",
         text: t("loggedOut", { ns: "logout" }),
       });
-      router.replace("/");
+      router.replace("/login");
     }
     setIsLoggingOut(false);
   };

@@ -20,11 +20,7 @@ export const KnowledgeToFeedInput = ({
     <div className="px-20">
       <div className="flex flex-row gap-10 justify-between items-center mt-5">
         <FileUploader />
-        <span className="whitespace-nowrap	">
-          {`${t("and", { ns: "translation" })} / ${t("or", {
-            ns: "translation",
-          })}`}
-        </span>
+        
         <Crawler />
       </div>
       <FeedItems />
