@@ -64,12 +64,12 @@ export const BrainManagementTabs = (): JSX.Element => {
           />
           {(!isPublicBrain || hasEditRights) && (
             <>
-              <BrainTabTrigger
+              {/* <BrainTabTrigger
                 selected={selectedTab === "people"}
                 label={t("people", { ns: "config" })}
                 value="people"
                 onChange={setSelectedTab}
-              />
+              /> */}
               <BrainTabTrigger
                 selected={selectedTab === "knowledgeOrSecrets"}
                 label={knowledgeOrSecretsTabLabel}
